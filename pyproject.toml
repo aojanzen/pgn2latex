@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pgn2latex"
+version = "0.1.0"
+description = ""
+authors = ["Andreas Janzen <janzen@gmx.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
